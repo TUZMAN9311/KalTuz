@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © TUZMAN TEAM 2025")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Калькулятор от TUZMAN TEAM")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7732b87fd2b69bb042af344ee1e90040cae9bed7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+600496e89159875da3c4ce444858e8f89b15f1ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("KalTuz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Калькулятор")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

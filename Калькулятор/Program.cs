@@ -10,11 +10,26 @@
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Напишите первое число:");
                 double one = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Напишите действие *,/,+,-,%");
+                Console.WriteLine("Напишите действие *,/,+,-,%,^2,^3");
                 string operation = Console.ReadLine();
-                Console.WriteLine("Напишите второе число:");
-                double two = Convert.ToDouble(Console.ReadLine());
-
+                if (operation == "^2")
+                {
+                    Console.Write("Ответ:");
+                    Console.Write(one * one);
+                    Console.ReadKey();
+                    Console.Clear();
+                    continue;
+                } 
+                else if (operation == "^3") 
+                {
+                    Console.Write("Ответ:");
+                    Console.Write(one * one * one);
+                    Console.ReadKey();
+                    Console.Clear();
+                    continue;
+                }
+                    Console.WriteLine("Напишите второе число:");
+                    double two = Convert.ToDouble(Console.ReadLine());
                 if (operation == "*")
                 {
                     Console.Write("Ответ:");
