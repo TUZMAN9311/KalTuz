@@ -1,22 +1,2 @@
 # Ignore Visual Studio temporary files
 .vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-Bin/
-Obj/
-
-# Visual Studio cache/options
-*.VC.db
-*.VC.VC.opendb
