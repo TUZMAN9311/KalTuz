@@ -17,27 +17,35 @@
 
                 if (operation == "*")
                 {
-                    Console.WriteLine("Ответ:");
+                    Console.Write("Ответ:");
                     Console.Write(one * two);
                 }
                 else if (operation == "+")
                 {
-                    Console.WriteLine("Ответ:");
+                    Console.Write("Ответ:");
                     Console.Write(one + two);
                 }
                 else if (operation == "-")
                 {
-                    Console.WriteLine("Ответ:");
+                    Console.Write("Ответ:");
                     Console.Write(one - two);
                 }
                 else if (operation == "/")
                 {
-                    Console.WriteLine("Ответ:");
-                    Console.Write(one / two);
+                    if (two == 0)
+                    {
+                        Console.Write("Ответ:");
+                        Console.Write("Делить на ноль нельзя!");
+                    }
+                    else
+                    {
+                        Console.Write("Ответ:");
+                        Console.Write(one / two);
+                    }
                 }
                 else if (operation == "%") 
                 {
-                    Console.WriteLine("Ответ:");
+                    Console.Write("Ответ:");
                     Console.Write(one / 100 * two);
                 }
                 
